@@ -3,9 +3,70 @@
     color: #2e2f42;
 }
 
+ul {
+    list-style-type: none;
+}
+
+.main-button-area .main-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #f4f4fd;
+    cursor: pointer;   
+    background-color: #4d5ae5;
+}
+
+.studio h2 {
+    color: rgba(0, 0, 0, 0.0)
+}
+
+.studio ul h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.studio ul p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.our-team h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.our-team h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.our-team p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
 .porfolio h2{
     font-weight: 700;
-    font-size: 36px;        
+    font-size: 36px;
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
@@ -14,7 +75,7 @@
 
 .porfolio ul h3{
     font-weight: 500;
-    font-size: 20px;           
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -32,9 +93,9 @@
     color: #f4f4fd;
     background-color: #2e2f42;
     font-weight: 400;
-    font-size: 16px;       
+    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em; 
+    letter-spacing: 0.02em;
 }
 
 .footer a{
@@ -43,12 +104,12 @@
     text-decoration: none;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 18px;            
+    font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
-    text-transform: uppercase;    
+    text-transform: uppercase;
 }
 
 .footer a .logo-purple {
-    color: #4d5ae5;   
+    color: #4d5ae5;
 }
