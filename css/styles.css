@@ -1,6 +1,5 @@
 body{
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -28,23 +27,25 @@ ul {
     color: #f4f4fd;    
 }
 
-.header .header-nav a{
+.header-link{
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-decoration: none;
     color: #2e2f42;
 }
 
-.header .header-nav a:hover,
-.header .header-nav a:focus{
+.header-link:hover,
+.header-link:focus{
     color: #404bbf;
 }
 
-.header .header-nav a:active {
+.header-link:active {
     text-decoration: underline;
     text-decoration-thickness: 4px;
 }
 
-.header .header-address a{
+.address-link{
     font-size: 16;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -53,8 +54,8 @@ ul {
     color: #434455;
 }
 
-.header .header-address a:hover,
-.header .header-address a:focus{
+.address-link:hover,
+.address-link:focus{
     color: #404bbf;
 }
 
@@ -71,7 +72,7 @@ ul {
     color: #ffffff;
 }
 
-.main-button-area .main-button {
+.main-button {
     font-weight: 500;
     letter-spacing: 0.04em;
     line-height: 1.5;
@@ -85,16 +86,20 @@ ul {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.main-button-area .main-button:hover,
-.main-button-area .main-button:focus {
+.main-button:hover,
+.main-button:focus {
     background-color: #404bbf;
 }
 
-.studio h2 {
+.transparent {
     color: rgba(0, 0, 0, 0.0)
 }
 
-.h3-heading{
+.studio-list {
+    background-color: #ffffff;
+}
+
+.studio-head {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -102,7 +107,10 @@ ul {
     color: #2e2f42;
 }
 
-.studio ul p {
+.studio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -124,6 +132,7 @@ ul {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
 }
