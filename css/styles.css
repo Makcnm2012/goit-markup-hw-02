@@ -30,9 +30,24 @@ ul {
     text-decoration: none;
 }
 
+.header .header-nav a:hover,
+.header .header-nav a:focus{
+    color: #404bbf;
+}
+
+.header .header-nav a:active {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+}
+
 .header .header-address a{
     text-decoration: none;
     color: #434455;
+}
+
+.header .header-address a:hover,
+.header .header-address a:focus{
+    color: #404bbf;
 }
 
 .main-button-area{
