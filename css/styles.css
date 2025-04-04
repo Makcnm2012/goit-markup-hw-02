@@ -98,14 +98,17 @@ ul {
 }
 
 .our-team {
-    background: #ffffff;
+    background: #F4F4FD;
 }
 
 .our-team h2{
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
+    color: #2e2f42;
 }
 
 .our-team h3{
@@ -126,21 +129,29 @@ ul {
     font-weight: 700;
     line-height: 1.11;
     text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .porfolio ul h3{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .porfolio ul p{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
 .footer{
-    color: #f4f4fd;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     background-color: #2e2f42;
+    color: #f4f4fd;
 }
 
 .footer a{
@@ -152,4 +163,8 @@ ul {
     text-transform: uppercase;
     text-decoration: none;
     color: #4d5ae5;    
+}
+
+.logo-white{
+    color: #f4f4fd;    
 }
