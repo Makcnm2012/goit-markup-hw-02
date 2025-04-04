@@ -45,12 +45,15 @@ ul {
     text-decoration-thickness: 4px;
 }
 
+.header-address {
+    font-style: normal;
+}
+
 .address-link{
     font-size: 16;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: none;
-    font-style: normal;
+    text-decoration: none;    
     color: #434455;
 }
 
@@ -79,11 +82,6 @@ ul {
     cursor: pointer;   
     background-color: #4d5ae5;
     color: #ffffff;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .main-button:hover,
@@ -115,7 +113,11 @@ ul {
 }
 
 .our-team {
-    background: #F4F4FD;
+    background-color: #F4F4FD;
+}
+
+.our-team-list {
+    background-color: #ffffff;
 }
 
 .our-team-title{
