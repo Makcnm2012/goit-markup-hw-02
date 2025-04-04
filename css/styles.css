@@ -1,4 +1,4 @@
-:root{
+body{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -68,6 +68,16 @@ ul {
     cursor: pointer;   
     background-color: #4d5ae5;
     color: #f4f4fd;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.main-button-area .main-button:hover,
+.main-button-area .main-button:focus {
+    background-color: #404bbf;
 }
 
 .studio h2 {
